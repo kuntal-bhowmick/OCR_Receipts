@@ -1,6 +1,7 @@
 # OCR_Receipts
 ## Total Amount Retrieval from Receipt Images :
-In this solution I have to retrieve total billing amount from a receipt image. On a high level we could use OCR techniques with preprocessing and read the text/amount by Tesseract from the image.
+In this solution I have to retrieve total billing amount from a receipt image. In real life we would see that different organization/vendor/company print their receipt or bill in different templates due to which compoments like "Total Amount" get printed in different section of the receipt and also come with different identifier such as , Amount Due/Drive Through Amount/Due Amount/Total Bill/Payable Amount etc. This difference in bill templates create problem to normal OCR pipeline to pick Total Amount from a receipt. I am trying to make Image Segmentation/Detection algorithms to learn to identify Total Amount from different bill templates.
+
 Main challenge of the problem is that total amount would be in different positions in different vendors/organizations bill so we have to create a model which could identify them from different billing templates.
 ## My Solution Flow:
 
