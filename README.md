@@ -4,6 +4,8 @@ In this solution I have to retrieve total billing amount from a receipt image. O
 Main challenge of the problem is that total amount would be in different positions in different vendors/organizations bill so we have to create a model which could identify them from different billing templates.
 ## My Solution Flow:
 
+![image](https://user-images.githubusercontent.com/56585442/126036574-74e3d8e6-f208-4ce9-8347-c6f7b498a4dd.png)
+
 	
 
 ## Detail Solution :
